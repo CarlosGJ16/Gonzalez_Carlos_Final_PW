@@ -1,0 +1,190 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & Container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #388e3c;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #388e3c;
+    margin-bottom: 10px;
+}
+
+/* Formulario */
+form {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #388e3c;
+    outline: none;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit-btn,
+.clear-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn {
+    background-color: #388e3c;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #2c6b2f;
+}
+
+.clear-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.clear-btn:hover {
+    background-color: #e53935;
+}
+
+/* Sección de API de Imágenes */
+#imageGallery {
+    margin-top: 30px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#randomImage {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.change-photo-btn {
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.change-photo-btn:hover {
+    background-color: #2c6b2f;
+}
+
+/* Sección Sistema Solar */
+#solarSystem {
+    margin-top: 30px;
+}
+
+.solar-system ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.solar-system li {
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.solar-system li:nth-child(even) {
+    background-color: #f1f8e9;
+}
+
+/* Navegación */
+.navigation {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.navigation a {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 0 10px;
+    background-color: #388e3c;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+    background-color: #2c6b2f;
+}
+
+#planetDetails {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+}
+

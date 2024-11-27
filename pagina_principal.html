@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="estilos.css/pagina1.css">
+    <script src="javascript.js/pagina1.js" defer></script>
+</head>
+<body onload="mostrarMensajeBienvenida()">
+    <h1>Página Principal</h1>
+    <p>Bienvenido a mi página web. Aquí puedes navegar por las diferentes secciones de mi página:</p>
+    <ul>
+        <li>Pagina de APIs: En la pagina de Apis se mostraran tres apis de las cuales son:
+            Api para correo, Api para imagenes ramdom y por ultimo Api para los planetas del sistema solar.</li>
+        <li>Pagina de Formulario: Donde se ingresaran los datos de la persona con su calificacion ademas de un largo mensaje.</li>
+        <li>Operaciones: Tabla interactiva con operaciones matemáticas.</li>
+    </ul>
+
+    <p id="saludo"></p> <!-- Elemento para mostrar el saludo -->
+
+    <div class="buttons">
+        <button onclick="window.location.href='index.html'">Volver al Login</button>
+        <button onclick="window.location.href='pagina2.html'">APIs</button>
+        <button onclick="window.location.href='pagina3.html'">Datos de la persona</button>
+        <button onclick="window.location.href='pagina4.html'">tABLA</button>
+    </div>
+</body>
+</html>

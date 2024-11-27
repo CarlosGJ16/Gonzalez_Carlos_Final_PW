@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+    <link rel="stylesheet" href="estilos.css/pagina4.css">
+</head>
+<body>
+    <h1>Operaciones</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th class="animated">Operación</th>
+                <th class="animated">Descripción</th>
+                <th class="animated">Botones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>TOTAL PRODUCTO</td>
+                <td>Calcula el precio por la cantidad</td>
+                <td><button onclick="calcularTotalProducto()">Calcular</button></td>
+            </tr>
+            <tr>
+                <td>PORCENTAJE</td>
+                <td>Calcula el 30% del precio</td>
+                <td><button onclick="calcularPorcentaje()">Calcular</button></td>
+            </tr>
+            <tr>
+                <td>DESCUENTO</td>
+                <td>Calcula el precio total considerando cantidad y descuento</td>
+                <td><button onclick="calcularDescuento()">Calcular</button></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div id="resultado">
+        <p id="resultado-text"></p>
+    </div>
+
+    <nav class="navigation">
+        <a href="index.html">Volver al Login</a>
+        <a href="pagina_principal.html">Volver a Página principal</a>
+        <a href="Pagina2.html">APIs</a>
+        <a href="pagina3.html">Datos de la persona</a>
+    </nav>
+
+    <script src="javascript.js/pagina4.js"></script>
+</body>
+</html>
+
